@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .subnav{
+            display: inline-block;
+            margin-left: 100px;
+            position:flex;
+            
+        }
+        .dropdown{
+            display: none;
+            background-color: aqua;
+        }
+         
+     .subnav:hover .dropdown{
+        display: block;
+        transition-duration: 3s;
+        transition-delay: 3s;
+        transition-timing-function: ease-in;
+        color: rgb(37, 48, 37);
+        background-color: aquamarine;
+       
+     }
+
+     .child{
+        display: inline-block;
+        margin-left: 450px;
+        position: fixed;
+     }
+
+
+        
+
+    </style>
+    
+</head>
+<body>
+    <div class="parent">
+      <img src="https://media.geeksforgeeks.org/gfg-gg-logo.svg" alt="">
+    </div>
+    <div class="nav">
+        <div class="subnav">
+            courses ^
+            <div class="dropdown">
+                <a href="DSA/Placements">DSA/Placements</a>
+                <p>GATE 2026 </p>
+                <p>ML&Data Science</p>
+                <p>Development</p>
+                <p>Cloud/Devops</p>
+                <p>Programming Languages</p>
+                <p>All Courses</p>
+            </div>
+
+        </div>
+
+        <div class="subnav">
+            Tutorials ^ 
+            <div class="dropdown">
+                <p>Python</p>
+                <p>Java</p>
+                <p>DSA</p>
+                <p>ML&Data Science</p>
+                <p>interview corner</p>
+                <p>Programming Languages</p>
+                <p>Web Development</p>
+                <p>GATE</p>
+                <p>CS Subjects</p>
+                <p>Devops</p>
+                <p>School Learning</p>
+                <p>Software and Tools</p>
+            </div> 
+
+        </div>
+        <div class="subnav">
+            Practise ^
+            
+            <div class="dropdown">
+                <p>Practice Coading Problems</p>
+               <p>Nation Skilup-Free Courses</p>
+               <p>Problem of the Day</p>
+
+            </div>
+        </div>
+        <div class="subnav">
+            Job ^
+            <div class="dropdown">
+                <p>Apply Now!</p>
+                <p>Post Jobs</p>
+                <p>Jobs Updates</p>
+
+            </div>
+        </div>
+        <div class="child">
+            <button style="background-color:#0d0d0df6;color:rgb(241, 237, 237);padding:12px 20px;border:none;border-radius:4px;cursor:pointer;">sign in</button>
+
+        </div>
+    </div>    
+</body>
+</html>

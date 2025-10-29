@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            color:#FFFFFFCC;
+        }
+        .resort{
+            display: flex;
+            justify-content:space-between;
+            margin: 50px;
+            padding-top: 35px;
+            padding-right: 95px;
+        }
+        .b{
+            display: flex;
+            justify-content: space-around;
+        }
+        .c:hover{
+            height: 230px;
+            width: 230px;
+            border: 2px solid white;
+        }
+        .c{
+            height: 232px;
+            width: 232px;
+            padding:28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+        .content{
+            display:flex;
+            justify-content:center;
+            margin-left: 50px;   
+        }
+        .book{
+            margin-left:290px;
+            padding-top:250px;
+            font-size: 35px;
+        }
+        .img{
+            display:flex;
+            justify-content:center;
+        }
+        .error{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .foot{
+            height:450px; 
+            width:100%;
+        }
+        .mid{
+            margin-left: 400px;
+            padding:135px;
+            
+        }
+        .copy{
+            display:flex;
+            justify-content:space-between;
+            margin:15px
+        }
+        .copy1:hover{
+            text-decoration:underline;
+        }
+        .sub{
+            display:inline-block;
+            margin: 20px;
+        }
+        .page{
+            display: none;
+            color: black;
+            position: absolute;
+        }
+        .sub:hover .page{
+            display: block;
+            background-color:black;
+            color:grey;
+            padding: 10px;
+        }
+        .nav{
+            display: flex;
+            background-color:transparent;
+            height: 50px;
+        }
+        .head{
+            display:flex;
+        }
+        .cbtn{
+            color:white;
+            background-color:transparent;
+        }
+        .cbtn:hover{
+            background-color: white;
+            color:black;
+        }
+        .cbtn1{
+            color:black;
+            background-color:transparent;
+        }
+        .cbtn1:hover{
+            background-color: black;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS82LU8NdDj-v5PhPCgKiIu0xBBJpaQAqeUhA&s'); height:700px; width:100%; background-size:cover;">
+        <div class="resort">
+            <div class='head' style="padding-left: 95px;">
+                <a style="font-size: 35px; padding-top: 10px;"><b>Hideaway Resort</b></a>
+                <div class='nav'>
+                    <div class="sub" style="padding-left:5px;">
+                        Home<ion-icon name="chevron-down-outline"></ion-icon>
+                        <div class="page">
+                            <p>Slider Header</p>
+                            <p>Slider Classic</p>
+                            <p>Static Header</p>
+                            <p>Static Classic</p>
+                            <p>Youtube Background</p>
+                            <p>Youtube Classic</p>
+                            <p>WEST</p>
+                            <p>Self-hosted Video</p>
+                            <p>Self-hosted Classic</p>
+                        </div>
+                    </div>
+                    <div class="sub">
+                        Pages<ion-icon name="chevron-down-outline"></ion-icon>
+                        <div class="page">
+                            <p>Gallery</p>
+                            <p>Amenities</p>
+                            <p>Packages</p>
+                            <p>Our History</p>
+                        </div>
+                    </div>
+                    <div style='padding-top: 22px;'>Contact</div>
+                    <div class="sub">
+                        Elements<ion-icon name="chevron-down-outline"></ion-icon>
+                        <div class="page">
+                            <p>Buttons</p>
+                            <p>Colors</p>
+                            <p>Google Map</p>
+                            <p>Grid</p>
+                            <p>Icons</p>
+                            <p>Layout Helpers</p>
+                            <p>Modal Video</p>
+                            <p>Owl Carousal</p>
+                            <p>Slider</p>
+                            <p>Typography</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ion-icon name="logo-facebook" style="margin-right: 10px;"></ion-icon>
+                <ion-icon name="logo-twitter" style="margin-right: 10px;"></ion-icon>
+                <ion-icon name="logo-google" style="margin-right: 10px;"></ion-icon>
+                <button class="cbtn" style="border: 2px solid white; padding: 10px; margin-top: 10px; margin-left: 10px; width: 110px;">Book Now</button>
+            </div>
+        </div>
+        <div style="margin-top: 230px;">
+            <center><p>WEST VIRGINIA / UNITED STATES</p>
+            <h1 style="font-size: 50px">Live Wonderful life</h1></center>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="b">
+        <div style="background-image:url('https://i0.wp.com/picjumbo.com/wp-content/uploads/green-natural-background-with-trees-and-wooden-foundation-free-image.jpeg?w=600&quality=80'); height:290px; width:290px; background-size:cover; margin-left:230px; padding:25px;">
+            <div class="c">Gallery</div>
+        </div>
+        <div style="background-image:url('https://plus.unsplash.com/premium_photo-1675198764473-30434364c8b6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000'); height:290px; width:290px; background-size:cover; padding:25px; margin-right:30px; margin-left:30px;">
+            <div class="c">Amneities</div>
+        </div>
+        <div style="background-image:url('https://png.pngtree.com/thumb_back/fh260/background/20230411/pngtree-nature-forest-sun-ecology-image_2256183.jpg'); height:290px; width:290px; background-size:cover; margin-right:280px; padding:25px;">
+            <div class="c">Packages</div>
+        </div>
+    </div><br><br><br>
+    <div class="content">
+        <h1 style="color:black; width:320px; height:212px;">An inviting escape</h1>
+        <div style="width:640px; height:100px;">
+            <p style="color:#7F7F7F; margin-bottom:25px;">Crafted with Bootstrap 4, Hideaway is perfectly responsive to every devices available. Thousands of CSS helper classes let you customize this template in any way you want, without writing any code. This is a dummy text that you can change customize as you like with your description.</p>
+            <button class="cbtn1" style="border: 2px solid black; padding: 15px; margin-top:28px;">Our History</button>
+        </div>
+    </div><br><br>
+    <div style="background-image:url('https://wallpapers.com/images/hd/desktop-background-lwrqi3k35yldouoj.jpg'); width:100%; height:658px; background-size:cover;">
+        <div class='book'>
+            <h1>Eagerly waiting to welcome you.</h1>
+            <center><button class="cbtn" style="border: 1px solid white; margin: 40px; margin-right:300px; padding:25px; padding-left:40px; padding-right:40px;">BOOK YOUR STAY</button></center>
+        </div>
+    </div><br><br><br>
+    <div class="img">
+        <div style="height: 417px; width: 514px;">
+            <center><p style="color:#240701;"><sub style="color:#240701;">123</sub> Fake Street, Stone Ridge, NY <sub style="color:#240701;">12345</sub></p></center><br>
+            <div class="error" style="height:345px; width:460px; background-color:rgb(237, 235, 235);">
+                <center><ion-icon name="alert-circle-outline" style="color:black; font-size:40px;"></ion-icon>
+                <h2 style="color:black;">Sorry! Something went wrong.</h2>
+                <p style="color:black;">This page didn't load Google Maps correctly. See the JavaScript console for technical details.</p></center>
+            </div>
+        </div>
+        <div style="height: 417px; width: 514px;">
+            <center><a style="color:#240701; margin:0px 3px;">Instagram <span style="color:#0C151A;">/</span></a><a style="color:#240701; margin:0px 3px;">Facebook <span style="color:#0C151A;">/</span></a><a style="color:#240701;">Twitter</a></center><br><br>
+            <div>
+                <img src="https://gos3.ibcdn.com/46d59db7-2ad9-4e66-9c0a-81d9879b0f47.jpg" style="height:162px; width:162px; background-size:cover;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSPn_gv_0S3CexHtheAa2XPI1p4lFfImZX3A&s" style="height:162px; width:162px; background-size:cover;">
+                <img src="https://www.hideawayholidays.com.au/wp-content/uploads/2018/06/5039.28559.jpg" style="height:162px; width:162px; background-size:cover;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJY86JQhd5M_pZ3O9ZkIfMOfn3-4sQ6bBZMw&s" style="height:162px; width:162px; background-size:cover;">
+                <img src="https://img.easemytrip.com/EMTHOTEL-4422157/70/23/na/s/54899787_0.jpg" style="height:162px; width:162px; background-size:cover;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAj8eoN-glwjJNe8pek9cZEgl2VbqKAh2qYw&s" style="height:162px; width:162px; background-size:cover;">
+            </div>
+        </div>
+    </div><br><br>
+    <div class="foot" style="background-image:url('https://www.venuelook.com/_next/image?url=https%3A%2F%2Fcdn.venuelook.com%2Fuploads%2Fspace_41389%2F1754983129_595x400.png&w=640&q=75'); background-size:cover;">
+        <div class="mid">
+            <center style="margin-right:395px;"><h2>Join the Hideaway Newsletters</h2>
+            <p>Subscribe to our mailing list to receive updates and promotional offers.</p></center><br><br>
+            <div>
+                <form>
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="  Enter Email Here" style="width:295px; height:45px;">
+                    <input type="submit" value="Submit" style="color:black; border:0px solid black; width:124px; height:47px;">
+                </form>
+            </div>
+        </div>
+        <div class="copy">
+            <div>
+                <p>© Hideaway 2018 | Template crafted by <a href="https://themewagon.com/">Themewagon</a></p>
+            </div>
+            <div>
+                <a style="margin:5px;" class="copy1">Home</a>
+                <a style="margin:5px;" class="copy1">Book Now</a>
+                <a style="margin:5px;" class="copy1">Contact</a>
+                <a style="margin:5px;" class="copy1">Events</a>
+                <a style="margin:5px;" class="copy1">Policies</a>
+                <a style="margin:5px;" class="copy1">Term + Conditions</a>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkxM7bqUhVW4EaLOR21oEaV0sj7bb05kCNDg&s"></script>
+    <script nomodule src="https://thumbs.dreamstime.com/b/pleasant-inviting-nice-background-suitable-various-designs-image-374078386.jpg"></script>
+</body>
+</html>
